@@ -1,0 +1,73 @@
+
+body {
+font-family: Arial, sans-serif;
+margin: 20px;
+background: #f9f9f9;
+color: #333;
+}
+h1 {
+text-align: center;
+}
+.container {
+display: flex;
+justify-content: space-around;
+margin-bottom: 40px;
+flex-wrap: wrap;
+}
+.chart {
+border: 1px solid #ccc;
+background: #fff;
+padding: 15px;
+width: 45%;
+min-width: 300px;
+box-shadow: 2px 2px 8px #ddd;
+}
+.chart h2 {
+text-align: center;
+margin-bottom: 15px;
+}
+.gantt {
+display: flex;
+align-items: center;
+height: 40px;
+border: 1px solid #aaa;
+margin-bottom: 15px;
+background: #eee;
+}
+.block {
+height: 100%;
+border-right: 1px solid white;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-weight: bold;
+font-size: 12px;
+}
+
+.p1 { background: #4caf50; }
+.p2 { background: #2196f3; }
+.p3 { background: #ff9800; }
+.p4 { background: #9c27b0; }
+.p5 { background: #f44336; }
+.overhead { background: #999; font-style: italic; font-weight: normal; font-size: 10px; }
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 10px;
+}
+table th, table td {
+border: 1px solid #bbb;
+padding: 8px;
+text-align: center;
+}
+table th {
+background: #eee;
+}
+.section-title {
+margin-top: 40px;
+text-align: center;
+font-weight: bold;
+font-size: 1.2rem;
+}
